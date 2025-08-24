@@ -294,6 +294,20 @@ h1,h2,h3,h4,h5,h6,p,i{
 .iconLeft {
     padding-top: 20px;
 }
+.iconLeft svg{
+    transition: .4s;
+}
+.iconLeft svg:hover{
+    background-color: #FF4655;
+    border-radius: 50px;
+}
+.iconRight svg{
+    transition: .4s;
+}
+.iconRight svg:hover{
+    background-color: #FF4655;
+    border-radius: 50px;
+}
 /* Popularpart end  */
 
 /* Livestreaminpart start  */
@@ -347,6 +361,13 @@ h1,h2,h3,h4,h5,h6,p,i{
     padding: 0 100px;
     align-items: center;
 }
+.teamBottomFlex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    align-items: center;
+    padding-top: 55px;
+}
 .team{
     width: 40%;
     padding: 10px 0;
@@ -354,6 +375,11 @@ h1,h2,h3,h4,h5,h6,p,i{
     justify-content: space-between;
     align-items: center;
     background-color: #212121;
+    transition: .4s;
+}
+.team:hover{
+    opacity: 0.8;
+    box-shadow: 0 4px 8px #FF4655; 
 }
 .team h3{
    color: #FFFFFF;
@@ -367,4 +393,317 @@ h1,h2,h3,h4,h5,h6,p,i{
     font-weight: 500;
     font-family: "Oswald", sans-serif;
 }
+.teamBottomFlex h4{
+      color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+}
 /* Livestreaminpart end  */
+
+/* Salepart start  */
+#salePart{
+    padding: 90px 0;
+    background-color: #191919;
+}
+.saleHeadText h3{
+    font-size: 38px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 46px;
+     font-family: "Barlow Condensed", sans-serif;
+     width: 449px;
+     text-align: end;
+      padding-left: 859px;
+     position: relative;
+}
+.saleHeadText h3::after {
+    position: absolute;
+    height: 4px;
+    width: 105px;
+    background-color: #FF4655;
+    bottom: 9px;
+    right: 81px;
+    content: "";
+}
+.ptflex{
+    display: flex;
+    justify-content: space-between;
+}
+.saleIteamFlex{
+    padding-top: 55px;
+}
+.iteam{
+    /* width: 25%; */
+}
+.iteam img{
+    width: 100%;
+    transition: .4s;
+}
+.iteam img:hover{
+    transform: scale(1.03);
+    opacity: 0.8;
+      box-shadow: 0 4px 8px #2508a5; 
+}
+.iteamText{
+    width: 100%;
+}
+.iteamText h3{
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: "Barlow Condensed", sans-serif;
+    padding-top: 25px;
+}
+.iteamText p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+   font-family: "Oswald", sans-serif;
+   padding: 25px 0;
+}
+.doscount{
+    display: flex;
+}
+.doscount p{
+   font-size: 16px;
+   font-weight: 400;
+   color: #666666;
+   font-family: "Oswald", sans-serif;
+   margin: 0 20px;
+   margin-top: 20px;
+   position: relative;
+}
+.doscount p::after {
+    position: absolute;
+    height: 2px;
+    width: 45px;
+    background-color: #666666;
+    content: "";
+    bottom: 20px;
+    left: -2px;
+}
+.doscount h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+   font-family: "Oswald", sans-serif;
+   padding-top: 20px;
+
+}
+.chang{
+    padding: 15px;
+    background-color: #FF4655;
+}
+.saleBottomText h3{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+     font-family: "Barlow Condensed", sans-serif;
+}
+.favoriteGame{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background-color: #212121;
+}
+.favoriteTextImgFlex{
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.favoriteText{
+    width: 60%;
+}
+.favoriteText h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FF4655;
+    font-family: "Oswald", sans-serif;
+}
+.favoriteText h3{
+    font-size: 38px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: "Barlow Condensed", sans-serif;
+    padding: 30px 0;
+}
+.favoriteText p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #666666;
+    line-height: 24px;
+    width: 603px;
+    font-family: "Oswald", sans-serif;
+    padding-bottom: 25px;
+}
+.browseBtn{
+    padding: 13px 31px;
+    background-color: #121212;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+    border: none;
+    transition: .4s;
+}
+.browseBtn:hover{
+     background-color: #FF4655;
+}
+.favoriteImg{
+    width: 40%;
+}
+.favoriteImg img{
+    transition: .4s;
+}
+.favoriteImg img:hover{
+     transform: scale(1.03);
+     box-shadow: 0 4px 8px #FF4655; 
+}
+/* Salepart end  */
+
+/* Providepart start  */
+#providePart{
+    padding-top: 100px;
+    padding-bottom: 85px;
+    background-color: #121212;
+}
+.provideHeadText h3{
+    font-size: 38px;
+    font-weight: 600;
+    color: #FFFFFF;
+    width: 446px;
+    line-height: 56px;
+     font-family: "Oswald", sans-serif;
+     position: relative;
+}
+.provideHeadText h3::after {
+    position: absolute;
+    height: 4px;
+    width: 120px;
+    background-color: #FF4655;
+    bottom: 12px;
+    left: 200px;
+    content: "";
+}
+.provideContantflex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.provideTextImg{
+    background-color: #212121;
+    padding: 24px 38px;
+
+}
+.provideTextImg h3{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+     font-family: "Oswald", sans-serif;
+}
+.provideTextImg img{
+    padding-top: 40px;
+    padding-bottom: 60px;
+    transition: .4s;
+}
+.provideTextImg img:hover{
+    transform: scale(1.03);
+     box-shadow: 0 4px 8px #b3c50e; 
+}
+.provideTextImg h4{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 25px;
+   font-weight: 600;
+     font-family: "Oswald", sans-serif;
+}
+.provideTextImg h5{
+    padding-top: 15px;
+    text-align: center;
+    color: #FF4655;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Oswald", sans-serif;
+}
+.provideIcon{
+    position: relative;
+}
+.iconRight2 svg{
+    position: absolute;
+    bottom: 223px;
+    right: -18px;
+}
+.iconRight2 svg {
+    position: absolute;
+    bottom: 223px;
+    right: -18px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    transition: .4s;
+}
+.iconRight2 svg:hover{
+    background-color: #FF4655;
+    border-radius: 50px;
+}
+.iconLeft3 svg {
+    position: absolute;
+    bottom: 223px;
+    left: -18px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    transition: .4s;
+}
+.iconLeft3 svg:hover{
+    background-color: #FF4655;
+    border-radius: 50px;
+}
+/* Providepart end   */
+
+/* MeetTeamPart start   */
+#meetTeamPart{
+    padding: 100px 0;
+    background-color: #191919;
+}
+.meetTeametHeadText h3 {
+    font-size: 38px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: end;
+    width: 498px;
+    line-height: 46px;
+    font-family: "Oswald", sans-serif;
+    padding-left: 823px;
+    position: relative;
+}
+.meetTeametHeadText h3::after {
+    position: absolute;
+    height: 4px;
+    width: 105px;
+    background-color: #FF4655;
+    bottom: 8px;
+    right: 92px;
+    content: "";
+}
+.meetTeametImgFlex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 55px;
+   position: relative;
+}
+.meetTeametImg img{
+    display: block;
+}
+.meetTeametText {
+    color: #FFFFFF;
+    padding: 24px 30px;
+    background-color: rgba(37, 36, 36, 29%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+/* MeetTeamPart end   */
