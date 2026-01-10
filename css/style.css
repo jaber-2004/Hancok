@@ -702,13 +702,13 @@ i {
   width: 100%;
   transition: 0.4s;
 }
-.meetTeametImg img:hover {
-   transform: scale(1.03);
+.meetTeametImg:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 4px #b3c50e;
 }
 .meetTeametImg {
   position: relative;
   overflow: hidden;
-
 }
 .meetTeametText h3 {
   color: #ffffff;
@@ -752,6 +752,11 @@ i {
   color: #dddddd;
   font-family: "Oswald", sans-serif;
   transition: 0.4s;
+  cursor: pointer;
+}
+.meetTeametTextHidden button:hover {
+  background-color: #ffffff;
+  color: #ff4655;
 }
 .meetTeametTextBtnIconFlex {
   display: flex;
@@ -782,3 +787,212 @@ i {
 }
 
 /* MeetTeamPart end   */
+/* Frequentlypart start */
+
+#frequentlyPart {
+  padding-top: 50px;
+  padding-bottom: 200px;
+  background-color: #121212;
+  position: relative;
+}
+.frequentlyHeadText h3 {
+  font-size: 38px;
+  font-family: 600;
+  color: #ffffff;
+  font-family: "Oswald", sans-serif;
+  width: 500px;
+  line-height: 46px;
+  position: relative;
+}
+.frequentlyHeadText h3::after {
+  position: absolute;
+  height: 4px;
+  width: 105px;
+  background-color: #ff4655;
+  bottom: 8px;
+  right: 41px;
+  content: "";
+}
+.frequentlyTextFlex {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.frequentlyTextFlexafter {
+  height: 1px;
+  width: 77%;
+  background-color: #666666;
+  position: absolute;
+  top: 350px;
+  left: 190px;
+}
+.frequentlyTextFlexbefore {
+  height: 38%;
+  width: 1px;
+  background-color: #666666;
+  position: absolute;
+  top: 222px;
+  left: 831px;
+}
+.frequentlyTextFlexOne {
+  display: flex;
+  column-gap: 20px;
+}
+.frequentlyTextFlexOne h3 {
+  background-color: #ff4655;
+  height: 60px;
+  width: 60px;
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frequentlyTextFlexOne h4 {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+}
+.frequentlyTextFlexOne h4:hover {
+  color: #ff4655;
+}
+.frequentlyTextFlexOne p {
+  color: #666666;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  margin-top: 10px;
+  line-height: 24px;
+  width: 440px;
+}
+/* Frequentlypart end */
+/* Footerpart start  */
+#footerPart {
+  padding-top: 110px;
+  padding-bottom: 30px;
+  background-color: #191919;
+  position: relative;
+}
+.subescribeDiv {
+  padding: 40px 0;
+  background-color: #ff4655;
+  position: absolute;
+  width: 1320px;
+  top: -100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.subescribeDiv h3 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 48px;
+  width: 625px;
+  margin-left: 30px;
+}
+.subescribeInput {
+  position: relative;
+}
+.subescribeInput input {
+  padding: 20px;
+  outline: none;
+  border-radius: 30px;
+  margin-right: 100px;
+  text-transform: uppercase;
+  border: none;
+  width: 255px;
+}
+.subescribeInput button {
+  padding: 20px 30px;
+  border-radius: 30px;
+  position: absolute;
+  right: 30px;
+  background-color: #191919;
+  color: #ffffff;
+  border: none;
+}
+
+.footerFlex {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #666666;
+  padding-bottom: 100px;
+}
+.footerFlexOne p {
+  margin-top: 30px;
+  color: #666666;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  width: 490px;
+  line-height: 24px;
+}
+.footerIcon a {
+  font-size: 30px;
+  display: inline-block;
+  color: #dddddd !important;
+  padding: 10px 12px;
+  border-radius: 50%;
+  background-color: #666666;
+  margin-top: 50px;
+  margin-right: 20px;
+  transition: 0.4s;
+}
+.footerIcon a:hover {
+  background-color: #ff4655;
+  color: #000000;
+}
+.footerFlexTwo h3 {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 15px;
+}
+.footerFlexTwo ul li {
+  padding: 15px 0;
+}
+.footerFlexTwo ul li a {
+  color: #666666;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+}
+.footerFlexTwo ul li a:hover {
+  color: #ff4655;
+}
+.footerFlexFour h3 {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 30px;
+}
+.footerFlexFour img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 4px #b3c50e;
+}
+.footermail {
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  margin-top: 20px;
+}
+.footermail span {
+  color: #ff4655;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  margin-left: 5px;
+  text-transform: uppercase;
+}
+/* Footerpart end  */
